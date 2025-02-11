@@ -19,3 +19,18 @@ GitHub Repo: [https://github.com/saikindigeri/contact.git](https://github.com/sa
 3. **Start the server:**
   node server.js
   The server will start on http://localhost:5000.
+
+
+---
+
+### Explanation
+
+
+- **API Endpoints:**  
+  - **GET /contacts:** Fetch all contacts.
+  - **GET /contacts/:id:** Fetch a single contact by ID.
+  - **GET /contacts/search:** Search contacts with a query parameter.
+  - **POST /contacts:** Create a new contact (with an example JSON payload).
+  - **PUT /contacts/:id:** Update a contact (with an example JSON payload).
+  - **DELETE /contacts/:id:** Delete a contact.
+
